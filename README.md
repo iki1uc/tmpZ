@@ -1,28 +1,28 @@
-# ANKER – Stabilisationsachse · iki1uc
+# <TMPNAME> – TMP‑Raum · iki1uc
 
 ## Zweck
-ANKER ist die Stabilisationsachse des iki1uc‑Systems.
-Es hält die Achsen IQ, QI, EVO, UPD, UPG, BIOS und CALC im korrekten Verhältnis.
+Dieser TMP‑Raum ist Teil der 16‑TMP‑Matrix des iki1uc‑Universums.
+Er dient als adressierbarer Speicherraum für HDF‑Strukturen, Pulse‑Daten,
+TMP‑Pipelines und Omega‑Verbindungen.
+
+## Eigenschaften
+- Eigenständiger TMP‑Raum
+- Voll adressierbar
+- HDF‑fähig
+- Pipeline‑kompatibel
+- Omega‑kompatibel (tmpOMG = TMPΩ)
 
 ## Struktur
-- NAME: ANKER
-- ID: A01
-- Station: S01
-- Dimension: D4
-- Modus: erabel (neutral, operation möglich)
+- index.html → Anzeige
+- TMP.core.js → Logik
+- ID_TMP.js → Identität
+- TMP_DASH.js → Dashboard
 
-## Rolle
-ANKER stabilisiert, ohne selbst aktiv zu berechnen oder zu steuern.
-Es ist die neutrale Achse zwischen AXI, 6d und API.
+## Zugehörigkeit
+Dieser Raum gehört zur TMP‑Matrix:
+16 Räume → PP + PQ + USB + OMG + HDF Albertus inside.
 
-## Bindungen
-- AXI
-- 6d
-- 360
-- 100
-- 213 (REAL)
-- API
-
-## Status
-STATE = STABIL  
-READY = 100%
+## Links
+- [TMPΩ](ca://s?q=Erkläre_TMPOmega)
+- [TMP_Pipeline](ca://s?q=TMP_Pipeline_erweitern)
+- [TMP_Räume](ca://s?q=TMP_Räume_übersicht)
